@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6495ED"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etGName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Goal Name" 
+        android:ems="10" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/etGDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Goal Due Date" 
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etGStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Goal Status" 
+        android:ems="10" />
+    
+        <EditText
+        android:id="@+id/etGSharedUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Shared Goal User Name" 
+        android:ems="10" />
+        
+           
+
+    <Button
+        android:id="@+id/bSaveGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="Save Goal Information" />
+
+</LinearLayout>
